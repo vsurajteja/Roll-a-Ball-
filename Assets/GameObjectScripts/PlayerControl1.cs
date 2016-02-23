@@ -31,7 +31,7 @@ public class PlayerControl1 : MonoBehaviour
 			//down-  up input stores as a float between -1.0 and 1.0
 			float moveVertical = Input.GetAxis ("Vertical");
 			// direction of the sum of both the input values
-			Vector3 movement = new Vector3 (moveHorizontal,moveHorizontal, moveVertical);
+			Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
 			// applies force in the desired direciton
 			GetComponent<Rigidbody>().AddForce (movement * speed * Time.deltaTime);
 		
@@ -42,7 +42,7 @@ public class PlayerControl1 : MonoBehaviour
 			//Use getAxisV and GetAxisH instead of Input.GetAxis for verti and horizontal
 			//If H and V are swapped, swap curAc.y and curAc.x.
 			//If any axis is going in the wrong direction, use -curAc.y and -curAc.x
-			Vector3 movement = new Vector3 (GetAxisH,GetAxisH, GetAxisV);
+			Vector3 movement = new Vector3 (GetAxisH, 0.0f, GetAxisV);
 			GetComponent<Rigidbody>().AddForce(movement * speedAc);
 		
 		
