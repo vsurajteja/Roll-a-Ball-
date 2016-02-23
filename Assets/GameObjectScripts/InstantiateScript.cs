@@ -3,6 +3,8 @@ using System.Collections;
 
 public class InstantiateScript : MonoBehaviour {
 
+    public int i = 0;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -14,6 +16,7 @@ public class InstantiateScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
     GameObject.Instantiate(Resources.Load("Clone"), gameObject.transform.position,this.transform.rotation);
+        i++
 	}
 
     public void TestMethod()
