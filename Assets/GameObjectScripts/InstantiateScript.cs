@@ -28,4 +28,8 @@ public class InstantiateScript : MonoBehaviour {
         Debug.Log("For Testing Purpose only");
     }
 
+    public void xyz()
+    {
+        Debug.Log("For Testingdjfketdhfghd Purpose only");
+    }
 }
