@@ -7,7 +7,7 @@ public class PlayerControl1 : MonoBehaviour
 {
 	//public so that we can change the value in the inspector
     public float speed = float.MaxValue;
-	public float speedAc = 17;
+	public float speedAc = 17000;
 	//"scoreText will store our UI Text Object"
 	public Text scoreText;
 	//"count" wil keep track of how many cubes we picked up
@@ -16,7 +16,7 @@ public class PlayerControl1 : MonoBehaviour
 	//accelerometer
 	private Vector3 curAc;
 	private Vector3 zeroAc;
-	private float smooth = 0.9f;
+	private float smooth = 0.1f;
 	private float sensV =30;
 	private float sensH =30;
 	private float GetAxisH =0;
