@@ -33,7 +33,7 @@ public class InstantiateScript : MonoBehaviour {
 
     public void xyz()
     {
-        Debug.Log("For Testingdjfketdhfghd Purpose only");
+        Debug.Log("For Testingdj Purpose only");
     }
     
   public void NewMethod()
