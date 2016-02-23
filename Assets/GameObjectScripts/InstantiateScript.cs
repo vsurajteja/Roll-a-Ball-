@@ -42,4 +42,8 @@ public class InstantiateScript : MonoBehaviour {
   public void NewMethod()
   { }
 
+
+    public void GameMethod()
+    { }
+
 }
