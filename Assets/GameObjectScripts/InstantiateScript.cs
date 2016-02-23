@@ -16,7 +16,7 @@ public class InstantiateScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
     GameObject.Instantiate(Resources.Load("Clone"), gameObject.transform.position,this.transform.rotation);
-        i++
+        i++;
 	}
 
     public void TestMethod()
@@ -41,6 +41,9 @@ public class InstantiateScript : MonoBehaviour {
 
 
     public void GameMethod()
+    { }
+
+    public void sdfsdfMethod()
     { }
 
 }
