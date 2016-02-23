@@ -7,6 +7,9 @@ public class InstantiateScript : MonoBehaviour {
 	void Start () {
 	
 	}
+
+  public void newMethodINJavaStyle()
+  { }
 	
 	// Update is called once per frame
 	void Update () {
