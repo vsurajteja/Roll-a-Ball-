@@ -67,5 +67,8 @@ public class PlayerControl1 : MonoBehaviour
 		}
 
 	}
+
+  void YetAnotherUselessMeth()
+  { }
 	
 }
