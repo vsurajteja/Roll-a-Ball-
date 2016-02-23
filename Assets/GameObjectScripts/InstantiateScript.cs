@@ -28,6 +28,9 @@ public class InstantiateScript : MonoBehaviour {
   {
   }
 
+  public void InkaIntikiveldamPadandi()
+  { }
+
 
     public void TestMethod2()
     {
