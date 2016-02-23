@@ -22,4 +22,10 @@ public class InstantiateScript : MonoBehaviour {
   {
   }
 
+
+    public void TestMethod2()
+    {
+        Debug.Log("For Testing Purpose only");
+    }
+
 }
