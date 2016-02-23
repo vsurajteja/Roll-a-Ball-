@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class PlayerControl1 : MonoBehaviour 
 {
 	//public so that we can change the value in the inspector
-    public float speed = float.MaxValue;
-	public float speedAc = 17000;
+	public float speed = 800.0f;
+	public float speedAc = 17;
 	//"scoreText will store our UI Text Object"
 	public Text scoreText;
 	//"count" wil keep track of how many cubes we picked up
@@ -51,6 +51,7 @@ public class PlayerControl1 : MonoBehaviour
 
 
 	}
+  //This method triggers when the ball enters in cube's collider
 	void OnTriggerEnter(Collider other)
 	{
 		if (other.gameObject.tag == "Pickup") {

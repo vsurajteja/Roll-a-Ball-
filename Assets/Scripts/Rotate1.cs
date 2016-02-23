@@ -4,10 +4,10 @@ using System.Collections;
 public class Rotate1 : MonoBehaviour {
 
 
-	//This method rotates the cubes
+	//This method rotates the cubes for infinite times
 	// Update is called once per frame
 	void Update () {
-		transform.Rotate (new Vector3 (30, 15, 45) * Time.deltaTime);
+		transform.Rotate (new Vector3 (15, 35, 45) * Time.deltaTime);
 	}
 
     public void UselessMethod()
