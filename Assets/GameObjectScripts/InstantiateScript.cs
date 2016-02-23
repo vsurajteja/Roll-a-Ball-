@@ -18,4 +18,8 @@ public class InstantiateScript : MonoBehaviour {
         Debug.Log("For Testing Purpose only");
     }
 
+  public void NaveenMeth()
+  {
+  }
+
 }
