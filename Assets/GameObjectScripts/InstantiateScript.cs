@@ -39,11 +39,13 @@ public class InstantiateScript : MonoBehaviour {
         Debug.Log("For Testingdj Purpose only");
     }
 
-
     public void GameMethod()
     { }
 
     public void sdfsdfMethod()
     { }
+
+  public void plsMohan()
+  { }
 
 }
