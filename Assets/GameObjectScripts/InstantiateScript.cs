@@ -35,8 +35,5 @@ public class InstantiateScript : MonoBehaviour {
     {
         Debug.Log("For Testingdjfketdhfghd Purpose only");
     }
-    
-  public void NewMethod()
-  { }
 
 }
