@@ -12,4 +12,10 @@ public class InstantiateScript : MonoBehaviour {
 	void Update () {
     GameObject.Instantiate(Resources.Load("Clone"), gameObject.transform.position,this.transform.rotation);
 	}
+
+    public void TestMethod()
+    {
+        Debug.Log("For Testing Purpose only");
+    }
+
 }
