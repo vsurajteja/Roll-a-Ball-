@@ -48,4 +48,8 @@ public class InstantiateScript : MonoBehaviour {
   public void plsMohan()
   { }
 
+
+    public void ForSmartGitTestingPurposeMethod()
+    { }
+
 }
