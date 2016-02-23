@@ -26,7 +26,9 @@ public class InstantiateScript : MonoBehaviour {
 
   public void NaveenMeth()
   {
-  }
+        int i = 0;
+        Debug.Log("For Testing Purpose only");
+    }
 
   public void InkaIntikiveldamPadandi()
   { }
