@@ -10,6 +10,14 @@ public class Rotate1 : MonoBehaviour {
 		transform.Rotate (new Vector3 (15, 30, 45) * Time.deltaTime);
 	}
 
+    public void UselessMethod()
+    {
+        for (int i = 0; i < int.MaxValue; i++)
+        {
+            //do nothing
+        }
+    }
+
 
 }
 
