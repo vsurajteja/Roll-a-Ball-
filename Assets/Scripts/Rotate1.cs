@@ -18,6 +18,10 @@ public class Rotate1 : MonoBehaviour {
         }
     }
 
+  public void AnotherUselessMeth()
+  { }
+
+
 
 }
 
